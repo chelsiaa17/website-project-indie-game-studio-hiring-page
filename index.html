@@ -7,22 +7,22 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Oxanium:wght@200..800&family=Pixelify+Sans:wght@400..700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
-    <title>Document</title>
+    <title>Surrey Game Studio</title>
 </head>
 <body>
     <div class="navbar">            
         <ul>
             <li class="nav-text"><a href="#about-us">About us</a></li>
-            <li class="nav-text"><a href="#our-location">Our location</a></li>
-            <li><a href="#banner"><img src="./logo.png" alt="Logo"></a></li>
             <li class="nav-text"><a href="#jobs">Jobs</a></li>
-            <li class="nav-text"><a href="#perks">Apply</a></li>
+            <li><a href="#banner"><img src="./logo.png" alt="Logo"></a></li>
+            <li class="nav-text"><a href="#our-location">Our location</a></li>
+            <li class="nav-text"><a href="#apply">Apply</a></li>
         </ul>
     </div>
     <div id="banner" class="banner">
         <h1>Game on!</h1> <br>
         <h2>Join our team of game designers and developers.</h2>
-        <img style="position: absolute; bottom: 0; left: 50%; transform: translate(-50%, 0); height: 10vh; width: 10vh;" src="./down-arrow.png" alt="">
+        <a href="#about-us"><img style="position: absolute; bottom: 0; left: 50%; transform: translate(-50%, 0); height: 10vh; width: 10vh;" src="./down-arrow.png" alt="Down button"></a>
     </div>
     <section id="about-us">
         <div>
@@ -31,29 +31,62 @@
             <p>We are a game studio based in Guilford, Surrey, UK. Who love to create games for all.</p>
             <p>We are looking to hire new people to join our awesome team.</p>
         </div>
-        <img src="./about-us-image.jpg" alt="">
+        <img src="./about-us-image.jpg" alt="An image of people working in an office">
     </section>
-    
-    <section id="perks">
-        <h1>Perks</h1> <br>
+    <section id="jobs" class="jobsSection">
+        <h1>Available roles</h1> <br> <br>
+        <div class="jobs">
+            <div>
+                <img src="./job-image-1.jpg" alt="An image ">
+                <h2>Game developer</h2>
+                <a href=""><button>Find out more</button></a>
+            </div>
+            <div>
+                <img src="./job-image-2.jpg" alt="">
+                <h2>Illustrator/ Animator</h2>
+                <a href=""><button>Find out more</button></a>
+            </div>
+            <div>
+                <img src="./about-us-image.jpg" alt="">
+                <h2>Financial Manager</h2>
+                <a href=""><button>Find out more</button></a>
+            </div>
+        </div>
+    </section>
+    <section id="our-location">
+        <img src="./our-location.jpg" alt="An image showing our office">
         <div>
-            <img src="./perks.svg" alt="">
+            <h1>Our location</h1>
+            <p>Our office is based in Guilford, Surrey, located overlooking the scenic views of the town.</p>
+            <p>There are many comfortable office desks, working and meeting spaces, as well as a small coffee shop free of charge. </p>
+            <p>It is in close proximity to the town centre, filled with food and drink options for lunch.</p>
+            <p>We are looking to hire new people to join our awesome team.</p>
+        </div>
+    </section>
+    <section id="apply">
+        <h1>Apply</h1> <br>
+        <div>
+            <img src="./perks.svg" alt="An image with icons of various different working perks">
+            <span>
+                <h2>Perks</h2>
                 Working with us means many bonuses including: <br>
                 Flexible Work Hours & Remote Options: Work in a way that fits your life. <br>
                 Learning & Growth Opportunities: We’re big on growth!  <br>
                 Health & Wellness Benefits: Your health matters! <br>
                 Generous Paid Time Off: Take time for yourself. <br>
                 Fun, Friendly Culture: We work hard but love to celebrate together!
+            </span> 
         </div>
         <a href=""><button>Apply today!</button></a>
     </section>
     <footer>
-        <div><h2>Surrey Game Studio</h2><br><img src="./logo.png" alt=""></div>
+            <div><h2>Surrey Game Studio</h2><img src="./logo.png" alt="Logo"></div>
         <ul>
             <li>Phone number: +44 12345 6789</li>
             <li>Email: jobs@surreygamestudio.com</li>
-        </ul>
+        </ul>    
     </footer>
+    <div class="footer2">Disclaimer: this is a ficticious company created for a school programming project.</div>
     <script src="script.js"></script>
 </body>
 </html>
